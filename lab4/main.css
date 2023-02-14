@@ -1,0 +1,254 @@
+body, html {
+    height: 100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+/*Responsive Web Design*/
+
+* {
+    box-sizing: border-box;
+}
+
+/*Media Queries*/
+  /* For mobile phones: */
+
+
+  @media screen and (max-width: 768px) {
+    footer {
+        background: royalblue;
+    }
+    .menu li {
+      width:100%;
+    }
+    img:not(.logoIm) {
+      width: 100%;
+      height: 500px;
+    }
+    
+    /* For mobile: */
+.col-s-1 {width: 8.33%;}
+.col-s-2 {width: 16.66%;}
+.col-s-3 {width: 25%;}
+.col-s-4 {width: 33.33%;}
+.col-s-5 {width: 41.66%;}
+.col-s-6 {width: 50%;}
+.col-s-7 {width: 58.33%;}
+.col-s-8 {width: 66.66%;}
+.col-s-9 {width: 75%;}
+.col-s-10 {width: 83.33%;}
+.col-s-11 {width: 91.66%;}
+.col-s-12 {width: 100%;}
+  }
+
+  /*Desktop and tablets*/
+  @media screen and (min-width: 768px) {
+    .menu li {
+      float:left;
+      margin-right:20px;
+    }
+    footer {
+      clear:both;
+    }
+    .main_content, aside {
+      float: left;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+      }
+
+
+      aside {
+        padding-left:10px;
+        margin-top:150px;
+        background-color: beige;
+      }
+
+    
+
+  
+.banner {
+    background-image: url("banner.jpg");  
+    height: 80px ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;  
+    margin-bottom: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align:center;
+    color: navy;
+    
+    
+}
+
+
+h2 {
+    font-size: 25px;
+    background: -webkit-linear-gradient(black, blue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+
+    }
+    
+h3 {
+    border-style: dashed;
+    border-width: 2px;
+    border-left-style: double;
+    border-left-color: midnightblue ;
+    border-left-width: 10px;
+    /*padding-left: 5px;        
+    margin-left: 25px;*/
+    font-size: 25px;
+     }
+
+     h4 {
+      color:black;
+     }
+
+
+body {
+    background-color: darkcyan;
+    /*display: grid;
+    */
+    }
+
+a {
+    color:whitesmoke;
+    font-size: 20px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+    margin-top: 50px;   
+     }
+     
+p, li, #grading {
+    color: midnightblue;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /*margin-left: 25px;
+    margin-right: 25px;*/
+        
+     }
+
+table {
+    /*margin-left: 25px;*/
+     }
+
+img[src$="image.jpg"] {
+    border-color: whitesmoke;
+     }
+
+ #deadline {
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    
+     }
+     
+.contacts, .categories, .quick_links {
+    text-align: center;
+    font-size: 20px;
+    float: left;
+     }
+
+/*unvisited link*/
+a:link {
+    color: blue
+     }
+
+/*visited link*/
+    a:visited {
+    color: purple
+     }
+
+/*mouse over link*/
+    a:hover {
+    color: gold
+     }
+
+/*selected link*/
+     a:active {
+    color: red
+     }
+
+
+:fullscreen {
+    background-color: darkcyan;
+}
+
+footer li{
+    list-style-type:none;
+}
+
+/*animation*/
+
+.topic::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  .topic:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .topic::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: hsl(200 100% 80%);
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+  
+  .topic {
+    position: relative;
+    font-size: 35px;
+  }
+   
+  .menu {
+    display: block;
+    width:100%;
+    
+    list-style: none;
+  }
+  
+  h1 {
+    clear:both;
+    padding-top: 50px;
+  }
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+  

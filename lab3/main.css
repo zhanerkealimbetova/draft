@@ -1,7 +1,38 @@
 body, html {
     height: 100%;
 }
+/*Responsive Web Design*/
 
+* {
+    box-sizing: border-box;
+}
+
+/*Media Queries*/
+  /* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 700px) {
+    footer {
+        background: royalblue;
+    }
+
+  }
+
+
+
+
+
+
+  
+
+
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 .banner {
     background-image: url("banner.jpg");  
     height: 80px ;
